@@ -2,7 +2,7 @@ class jas
 {
 	public static void main(String args[])
 	{
-		String paragraph = "mY NaMe Is KhAn. I am not terrorist";
+		String paragraph = "mYNaMeIsKhAn";
 		int indexOf = paragraph.indexOf(" ");
 		System.out.println(indexOf);
 		int lastIndex = paragraph.lastIndexOf(" ");
@@ -13,5 +13,6 @@ class jas
 		System.out.println(contains);
 		boolean startsWith = paragraph.startsWith(" ");
 		System.out.println(startsWith);
+
 	}
 }
