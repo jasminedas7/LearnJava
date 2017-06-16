@@ -11,5 +11,7 @@ class jas
 		System.out.println(equals);
 		boolean contains = paragraph.contains(" ");
 		System.out.println(contains);
+		boolean startsWith = paragraph.startsWith(" ");
+		System.out.println(startsWith);
 	}
 }
