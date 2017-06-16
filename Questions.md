@@ -1,0 +1,1 @@
+Why do we write String args[] in every program
