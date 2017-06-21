@@ -11,3 +11,5 @@ git status (Tells status of code changes)
 javac jas.java (Compile)
 
 java jas (To run the program)
+
+javac jas.java && java jas - write two commnds simultaneously
