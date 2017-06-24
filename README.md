@@ -17,4 +17,7 @@ javac jas.java && java jas - write two commnds simultaneously
 # Questions
 
 What is the difference between database and data structures?
-	
+
+How to find common elements in 2 arrays
+
+Why are functions in C and mmethods in java
