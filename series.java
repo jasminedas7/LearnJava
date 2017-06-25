@@ -5,13 +5,8 @@ class Series{
 		 {
 		 	for(j=1;j<=i;j++){
 		 		System.out.println(i);
-		 		
-
-
-
 		 	}
 		 }
-
 	}
 }
 //print 1 once, 2 twice.....
