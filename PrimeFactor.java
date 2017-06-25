@@ -1,5 +1,5 @@
 class PrimeFactor {
-	public static void main(String args[]) {
+	public static void main(String ar[]) {
 
 		int i,num1=22,num2=36,index1=0;
 		int factor[]=new int[100];
@@ -27,13 +27,14 @@ class PrimeFactor {
 		        }
         	}
 		}
-		System.out.println("PRIME FACTORS OF"+num1);
-		for(int j=0;j<index1;j++){
-			System.out.println(factor[j]);
+		printArray(num1, factor, index1);
+		printArray(num2, factorOf36, index2);
+    }
+
+    public static void printArray(int num,int factor[],int length){
+     	System.out.println("Primefactors of " + num);
+    	for(int j=0;j<length;j++){
+    		         	System.out.println(factor[j]);
 		}
-		System.out.println("PRIME FACTORS OF"+num2);
-		for(int j=0;j<index2;j++){
-			System.out.println(factorOf36[j]);
-		}
-	}
+    }
 }
