@@ -14,6 +14,8 @@ java jas (To run the program)
 
 javac jas.java && java jas - write two commnds simultaneously
 
+touch Abc.java -> Creates new file called Abc.java
+
 # Questions
 
 What is the difference between database and data structures?
@@ -21,3 +23,5 @@ What is the difference between database and data structures?
 How to find common elements in 2 arrays
 
 Why are functions in C and mmethods in java
+
+Why do we write String args[] in every program	
